@@ -12,10 +12,10 @@ locale                   : "en-US"
 title                    : "Juan Guerrero"
 title_separator          : "-"
 name                     : "Juan Guerrero"
-description              : "An amazing website."
+description              : "Graphic Designer, Data Analyst, and Software Developer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "juang97/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -31,21 +31,21 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          :  ['name', 'email', 'url', 'message']
+  branch                 :  "master"
+  commitMessage          :  "New comment."
+  filename               :  comment-{@timestamp}
+  format                 :  "yml"
+  moderation             :  true
+  path                   :  "/_data/comments/{options.slug}"
+  requiredFields         :  ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                :  "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               :  "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           :  "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -84,14 +84,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Juan Guerrero"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Graphic Designer, Data Analyst, and Software Developer"
+  location         : "New York Metropolitan Area"
+  email            : "juan.guerrero15@stjohns.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
+  bitbucket        :"jguer584"
   codepen          :
   dribbble         :
   flickr           :
@@ -106,10 +106,10 @@ author:
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "7758865/juan" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          :"Juan_Guerrero01"
   vine             :
   weibo            :
   xing             :
