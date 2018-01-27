@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Juan Guerrero"
-  avatar           : "/assets/images/IMG_2733.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/IMG_2733.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Graphic Designer, Data Analyst, and Software Developer"
   location         : "New York Metropolitan Area"
   email            : "juan.guerrero15@stjohns.edu"
